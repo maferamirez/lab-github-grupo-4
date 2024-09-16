@@ -1,0 +1,11 @@
+
+def mult_numeros(a, b):
+    mult = a * b
+    return mult
+
+if __name__ == "__main__":
+    a = int(input("Introduce el primer número: "))
+    b = int(input("Introduce el segundo número: "))
+    
+    resultado = mult_numeros(a, b)
+    print(f"El resultado de la multiplicación es: {resultado}")
